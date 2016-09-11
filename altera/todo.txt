@@ -1,0 +1,6 @@
+REFACTORING:
+ - Not using ALT_IOBUF in the Modul under test file.
+ - Testbench
+ - Fix PCB missing line, update design
+ - More than one design
+ - Generator script / desktop app
