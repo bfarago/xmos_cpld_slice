@@ -1,0 +1,21 @@
+// This is only a mockup...
+DEF(Star, 	"B10",	"1C" )
+DEF(Star, 	"A8",	"1B" )
+DEF(Star, 	"B15",	"1G" )
+DEF(Star, 	"A15",	"1F" )
+DEF(Star, 	"B6",	"A0" )
+DEF(Star, 	"B7",	"A1" )
+DEF(Star, 	"B9",	"A2" )
+DEF(Star, 	"B11",	"A3" )
+DEF(Star, 	"A9",	"A4" )
+
+
+DEF(Triangle, "B10",	"1K" )
+DEF(Triangle, "A8",		"1J" )
+DEF(Triangle, "B15",	"1I" )
+DEF(Triangle, "A15",	"1L" )
+DEF(Triangle, "B6",		"B0" )
+DEF(Triangle, "B7",		"B1" )
+DEF(Triangle, "B9",		"B2" )
+DEF(Triangle, "B11",	"B3" )
+DEF(Triangle, "A9",		"B4" )

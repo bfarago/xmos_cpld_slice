@@ -1,0 +1,17 @@
+//THIS is a pin list for the mockup application
+
+DEF(XA_SK_SDRAM,	"SD_WE", 	"B10", 	"SDRAM Write Enable","O")
+DEF(XA_SK_SDRAM,	"SD_CAS", 	"A8", 	"SDRAM CAS","O")
+DEF(XA_SK_SDRAM,	"SD_RAS", 	"B15", 	"SDRAM RAS","O")
+DEF(XA_SK_SDRAM,	"SD_CLK", 	"A15", 	"SDRAM Clock driven from XCore", "O")
+DEF(XA_SK_SDRAM,	"SD_ADQ0", 	"B6", 	"SDRAM Address and Data","B")
+DEF(XA_SK_SDRAM,	"SD_ADQ1", 	"B7", 	"SDRAM Address and Data","B")
+DEF(XA_SK_SDRAM,	"SD_ADQ2", 	"B9", 	"SDRAM Address and Data","B")
+DEF(XA_SK_SDRAM,	"SD_ADQ3", 	"B11", 	"SDRAM Address and Data","B")
+DEF(XA_SK_SDRAM,	"SD_ADQ4", 	"A9", 	"SDRAM Address and Data","B")
+DEF(XA_SK_SDRAM,	"SD_ADQ5", 	"A11", 	"SDRAM Address and Data","B")
+DEF(XA_SK_SDRAM,	"SD_ADQ6", 	"A6", 	"SDRAM Address and Data","B")
+DEF(XA_SK_SDRAM,	"SD_ADQ7", 	"A7", 	"SDRAM Address and Data","B")
+DEF(XA_SK_SDRAM,	"SD_ADQ8", 	"B12", 	"SDRAM Address and Data","B")
+DEF(XA_SK_SDRAM,	"SD_ADQ9", 	"B13", 	"SDRAM Address and Data","B")
+
