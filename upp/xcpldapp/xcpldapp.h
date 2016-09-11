@@ -34,6 +34,7 @@ public:
 	void Dlmboard();
 	void Apins();
 	void UpdatePins();
+	void Bnverilog();
 	
 	board_te sboard;
 	connector_te mconnector;

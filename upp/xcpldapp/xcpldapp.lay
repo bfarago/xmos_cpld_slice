@@ -6,5 +6,6 @@ LAYOUT(xcpldappLayout, 448, 280)
 	ITEM(Label, dv___4, SetLabel(t_("connector:")).LeftPosZ(8, 88).TopPosZ(56, 19))
 	ITEM(Label, dv___5, SetLabel(t_("dev board:")).LeftPosZ(8, 88).TopPosZ(12, 19))
 	ITEM(ArrayCtrl, aPins, HSizePosZ(4, 4).VSizePosZ(108, 4))
+	ITEM(Button, bnVerilog, SetLabel(t_("Verilog")).LeftPosZ(372, 56).TopPosZ(84, 15))
 END_LAYOUT
 
