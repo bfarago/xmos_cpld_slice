@@ -224,13 +224,13 @@ Text Label 8500 2800 0    60   ~ 0
 AA3
 Text Label 8500 3000 0    60   ~ 0
 AA4
-Text Label 8500 3200 0    60   ~ 0
+Text Label 8500 3300 0    60   ~ 0
 AA6
-Text Label 8500 3400 0    60   ~ 0
+Text Label 8500 3500 0    60   ~ 0
 AA7
-Text Label 8500 3600 0    60   ~ 0
+Text Label 8500 3700 0    60   ~ 0
 AA8
-Text Label 8500 3800 0    60   ~ 0
+Text Label 8500 3900 0    60   ~ 0
 AA9
 Text Label 6550 1400 2    60   ~ 0
 AA11
@@ -244,7 +244,7 @@ Text Label 6550 2300 2    60   ~ 0
 AA16
 Text Label 6550 2500 2    60   ~ 0
 ~ARST
-Text Label 6550 2700 2    60   ~ 0
+Text Label 8500 3200 0    60   ~ 0
 AA18
 Text Label 8500 2700 0    60   ~ 0
 AB1
@@ -252,11 +252,11 @@ Text Label 8500 2900 0    60   ~ 0
 AB2
 Text Label 8500 3100 0    60   ~ 0
 AB4
-Text Label 8500 3300 0    60   ~ 0
+Text Label 8500 3400 0    60   ~ 0
 AB6
-Text Label 8500 3500 0    60   ~ 0
+Text Label 8500 3600 0    60   ~ 0
 AB7
-Text Label 8500 3700 0    60   ~ 0
+Text Label 8500 3800 0    60   ~ 0
 AB9
 Text Label 6550 1300 2    60   ~ 0
 AB10
@@ -510,7 +510,7 @@ Wire Wire Line
 	6550 2500 5800 2500
 Wire Wire Line
 	6550 1900 5800 1900
-Text Label 5850 2600 0    60   ~ 0
+Text Label 6550 2700 2    60   ~ 0
 BB18
 Wire Wire Line
 	8500 900  8500 1150
@@ -555,7 +555,7 @@ F 3 "" H 8500 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 2600 5800 2600
+	6550 2600 6300 2600
 $Comp
 L NCP699SN18 U2
 U 1 1 57D4065F
@@ -918,6 +918,10 @@ Wire Wire Line
 	1800 3200 1750 3200
 Text Notes 7050 6100 0    60   ~ 0
 Warning! CLK, nRST, B18  lines are connected strait from the input to output. \nCPLD have only one connection to these lines. Therefore the cpld pin 7, 18, 19 \nmust be an input only.
-Text Notes 1650 7400 0    60   ~ 0
+Text Notes 1100 7500 0    60   ~ 0
 Board powered 1.8V  ?! Need to check, if jtag port not drives the 1.8V  pin!!!\nIn this case, input socket need to disconnected while cpld is on\nreprograming by jtag port.\n(didn't checked, but I guess jtag port not provides 1.8V)
+Text Notes 1100 4200 0    60   ~ 0
+RP1..4 resitor arrays are reduce the EMI, protects the drivers.
+Text Notes 1100 4350 0    60   ~ 0
+CPLD has pull up resistor for each pin, if needed.
 $EndSCHEMATC
