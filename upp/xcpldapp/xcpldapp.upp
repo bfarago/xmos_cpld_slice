@@ -5,9 +5,13 @@ uses
 
 file
 	srcdoc.tpp,
-	xcpldapp.h,
 	board.def,
+	conslice.def,
 	conpins.def,
+	confpga.def,
+	xcpldapp.h,
+	xpin.h,
+	xpin.cpp,
 	main.cpp,
 	xcpldapp.lay,
 	xcpldapp.iml,
