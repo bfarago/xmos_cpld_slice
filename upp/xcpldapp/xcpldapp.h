@@ -27,7 +27,9 @@ typedef enum{
 	XA_SK_AUDIO,
 	XA_SK_SCR480,
 	XA_SK_GPIO,
-	XA_SK_SDRAM
+	XA_SK_SDRAM,
+	XA_SK_ISBUS,
+	XA_SK_WIFI
 }board_te;
 
 typedef enum{

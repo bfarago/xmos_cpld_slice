@@ -15,12 +15,16 @@ xcpldapp::xcpldapp()
 	dlSBoard.Add("XA-SK-SCR480");
 	dlSBoard.Add("XA-SK-GPIO");
 	dlSBoard.Add("XA-SK-SDRAM");
+	dlSBoard.Add("XK-SK-ISBUS");
+	dlSBoard.Add("XK-SK-WIFI");
+	//XA_SK_WIFI
 	dlMConn.Add("Star").Add("Triangle").Add("Square").Add("Circle");
 	dlMBoard.WhenAction= THISBACK(Dlmboard);
 	dlSBoard.WhenAction= THISBACK(Dlsboard);
 	dlMConn.WhenAction= THISBACK(Dlmconn);
 	aPins.WhenAction=THISBACK(Apins);
 	bnVerilog.WhenAction= THISBACK(Bnverilog);
+	Sizeable();
 }
 void xcpldapp::Dlsboard(){
 	//do nothing right now
@@ -38,7 +42,7 @@ void xcpldapp::Apins(){
 	//
 }
 String xcpldapp::GetCpuPort(String pin){
-	#define DEF(conid, pins, pinm) if (conid==mconnector) if (pins == pin) return pinm;
+	#define DEF(conid, pins, pinx, pinm) if (conid==mconnector) if (pins == pin) return   #pinx " " pinm;
 	#include "conpins.def"
 	#undef DEF
 	return "-";
